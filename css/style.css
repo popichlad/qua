@@ -1,6 +1,7 @@
 @import url("../../../css2");
 @import url("../../../css2-1");
 @keyframes btn
+
   0% {
     transform: scale(0.8);
   }
@@ -12,7 +13,7 @@
     transform: scale(1.5);
     opacity: 0;
   }
-}
+
 /* google-font */
 * {
   margin: 0;
@@ -32,6 +33,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: #ffffff;
   overflow-x: hidden;
+  font-weight: bolder;
 }
 
 h1,
@@ -386,14 +388,14 @@ button {
 .product-btn {
   padding: 1.2rem 1.6rem 1.2rem 2.5rem;
   border-top-left-radius: 3rem;
-  background: rgba(174, 28, 154, 0.188);
-  color: #ffcc00;
+  background: #ffda466c;
+  color: #000000;
   font-size: 1.6rem;
   transition: all 0.4s;
 }
 .product-btn:hover {
   background-color: #ffcc00;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .section-title {
